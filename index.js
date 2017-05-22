@@ -29,6 +29,7 @@ export default class EmojiPicker extends React.Component {
           >
             <TextInput
               autoFocus
+              underlineColorAndroid="transparent"
               style={{
                 textAlign: 'center',
                 alignItems: 'center',
