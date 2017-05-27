@@ -26,9 +26,11 @@ export default class EmojiPicker extends React.Component {
               top: window.height / 2 - 100,
               left: 0
             }}
+        onPress={(event) => {this.refs.input.focus()}}
           >
             <TextInput
               autoFocus
+              ref="input"
               underlineColorAndroid="transparent"
               style={{
                 textAlign: 'center',
